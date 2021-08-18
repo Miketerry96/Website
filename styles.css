@@ -1,12 +1,12 @@
 @font-face {
-    font-family: "Droid_Regular";
+    font-family: "Droid_Regular, Georgia, serif";
     src: url(res/fonts/DroidSerif-Regular.ttf);
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "Lato_Regular";
+    font-family: "Lato_Regular, Helvetica, sans-serif";
     src: url(res/fonts/Lato-Regular.ttf);
     font-style: normal;
     font-weight: normal;
@@ -78,7 +78,7 @@ overflow: hidden;
 }
 
 .icon-item {
-    font-family: Lato_Regular;
+    font-family: Lato_Regular, Helvetica, sans-serif;
     
     color: #CAC5BF;
     text-align: center;
@@ -99,7 +99,7 @@ overflow: hidden;
 
 .main-title {
     margin-top: 18vw;
-    font-family: Droid_Regular;
+    font-family: Droid_Regular, Georgia, serif;
     font-size: 8vw;
     color: #00A99D;
 }
@@ -108,7 +108,7 @@ overflow: hidden;
     margin-top: -5vw;
     text-align: right;
     letter-spacing: .5vw;
-    font-family: Lato_Regular;
+    font-family: Lato_Regular, Helvetica, sans-serif;
     letter-spacing: 3px;
     font-size: 3vw;
     color: #CAC5BF;
@@ -118,7 +118,7 @@ overflow: hidden;
     margin-top: 2%;
     margin-left: 10.15%;
     text-align: left;
-    font-family: Droid_Regular;
+    font-family: Droid_Regular, Georgia, serif;
     font-size: 6vw;
     color: #00A99D;
     z-index: 1;
@@ -128,7 +128,7 @@ overflow: hidden;
     margin-top: 2%;
     margin-right: 7.85%;
     text-align: right;
-    font-family: Droid_Regular;
+    font-family: Droid_Regular, Georgia, serif;
     font-size: 6vw;
     color: #00A99D;
     z-index: 1;
@@ -152,7 +152,7 @@ overflow: hidden;
 }
 
 .navbutton {
-    font-family: Lato_Regular;
+    font-family: Lato_Regular, Helvetica, sans-serif;
     font-size: 1vw;
     text-align: center;
     text-justify: center;
@@ -173,7 +173,7 @@ overflow: hidden;
 }
 
 .navbutton:focus {
-    font-family: Lato_Regular;
+    font-family: Lato_Regular, Helvetica, sans-serif;
     font-stretch: wider;
     font-size: 1vw;
     font-weight: bold;
@@ -194,7 +194,7 @@ overflow: hidden;
 }
 
 .selected-button {
-    font-family: Lato_Regular;
+    font-family: Lato_Regular, Helvetica, sans-serif;
     font-stretch: wider;
     font-size: 1vw;
     font-weight: bold;
@@ -259,7 +259,7 @@ overflow: hidden;
     margin-top: 0%;
     margin-left: 10.15%;
     text-align: left;
-    font-family: Droid_Regular;
+    font-family: Droid_Regular, Georgia, serif;
     font-size: 6vw;
     color: #00A99D;
     z-index: 0;
@@ -271,7 +271,7 @@ overflow: hidden;
 }
 
 .project-item {
-    font-family: Lato_Regular;
+    font-family: Lato_Regular, Helvetica, sans-serif;
     margin-left: 10.15%;
     text-align: left;
     font-size: 3vw;
@@ -286,7 +286,7 @@ overflow: hidden;
 }
 
 .contact-text {
-    font-family: Lato_Regular;
+    font-family: Lato_Regular, Helvetica, sans-serif;
     display: block;
     position: relative;
     height: 4%;
@@ -298,7 +298,7 @@ overflow: hidden;
 }
 
 .contact-area {
-    font-family: Lato_Regular;
+    font-family: Lato_Regular, Helvetica, sans-serif;
     position: relative;
     height: 25%;
     width: 25%;
@@ -310,7 +310,7 @@ overflow: hidden;
 }
 
 .contact-button {
-    font-family: Lato_Regular;
+    font-family: Lato_Regular, Helvetica, sans-serif;
     font-size: 2vw;
     text-align: center;
     text-justify: center;
@@ -380,7 +380,7 @@ overflow: hidden;
 
 .slideshow-item-text h2{
     font-size: 4vw;
-    font-family: Lato_Regular;
+    font-family: Lato_Regular, Helvetica, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     
@@ -430,7 +430,7 @@ overflow: hidden;
     }
 
     .navbutton {
-        font-family: Lato_Regular;
+        font-family: Lato_Regular, Helvetica, sans-serif;
         font-stretch: wider;
         font-size: 3vw;
         font-weight: bolder;
@@ -453,7 +453,7 @@ overflow: hidden;
     }
     
     .navbutton:focus {
-        font-family: Lato_Regular;
+        font-family: Lato_Regular, Helvetica, sans-serif;
         font-stretch: wider;
         font-size: 3vw;
         font-weight: bolder;
@@ -475,7 +475,7 @@ overflow: hidden;
     }
     
     .selected-button {
-        font-family: Lato_Regular;
+        font-family: Lato_Regular, Helvetica, sans-serif;
         font-stretch: wider;
         font-size: 1vw;
         font-weight: bold;
@@ -512,7 +512,7 @@ overflow: hidden;
     }
 
     .navbutton {
-        font-family: Lato_Regular;
+        font-family: Lato_Regular, Helvetica, sans-serif;
         font-size: 3vw;
         text-align: center;
         text-justify: center;
@@ -534,7 +534,7 @@ overflow: hidden;
     }
 
     .navbutton:focus {
-        font-family: Lato_Regular;
+        font-family: Lato_Regular, Helvetica, sans-serif;
         font-stretch: wider;
         font-size: 3vw;
         font-weight: bolder;
@@ -556,7 +556,7 @@ overflow: hidden;
     }
     
     .selected-button {
-        font-family: Lato_Regular;
+        font-family: Lato_Regular, Helvetica, sans-serif;
         font-stretch: wider;
         font-size: 1vw;
         font-weight: bold;
