@@ -1,3 +1,16 @@
+@font-face {
+    font-family: "Droid_Regular";
+    src: url(res/fonts/DroidSerif-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Lato_Regular";
+    src: url(res/fonts/Lato-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
 
 html {
 background: linear-gradient(#24272B 0%, #2D3134 100%);
