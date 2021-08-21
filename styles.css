@@ -1,26 +1,7 @@
-@font-face {
-    font-family: "Droid_Regular, Georgia, serif";
-    src: url(res/fonts/DroidSerif-Regular.ttf);
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "Lato_Regular, Helvetica, sans-serif";
-    src: url(res/fonts/Lato-Regular.ttf);
-    font-style: normal;
-    font-weight: normal;
-}
 
 html {
 background: linear-gradient(#24272B 0%, #2D3134 100%);
 overflow: hidden;
-}
-
-#background {
-    position: relative;
-    height: 100%;
-    width: 100%;
 }
 
 .container {
@@ -171,50 +152,6 @@ overflow: hidden;
     background: linear-gradient(270deg, #24272B 0%, #2D3134 100%);
     box-shadow: -.15vw 0.15vw .75vw 0vw rgba(0, 0, 0, .5);
 }
-
-.navbutton:focus {
-    font-family: Lato_Regular, Helvetica, sans-serif;
-    font-stretch: wider;
-    font-size: 1vw;
-    font-weight: bold;
-    height: 3vw;
-    width: 8vw;
-    border-radius: 3vw;
-    transform: rotate(270deg);
-    border-style: none;
-    border: none;
-    color: #00A99D;
-    margin-top: 3.5vw;
-    margin-bottom: 3.5vw;
-    
-    
-    background: linear-gradient(270deg, #24272B 0%, #2D3134 100%);
-    box-shadow: -.15vw 0.15vw .75vw 0vw rgba(0, 0, 0, .5);
-    box-shadow: inset .15vw -0.15vw .75vw 0vw rgba(0, 0, 0, .5);
-}
-
-.selected-button {
-    font-family: Lato_Regular, Helvetica, sans-serif;
-    font-stretch: wider;
-    font-size: 1vw;
-    font-weight: bold;
-    height: 3vw;
-    width: 8vw;
-    border-radius: 3vw;
-    transform: rotate(270deg);
-    border-style: none;
-    border: none;
-    color: #00A99D;
-    margin-top: 3.5vw;
-    margin-bottom: 3.5vw;
-    
-    
-    background: linear-gradient(270deg, #24272B 0%, #2D3134 100%);
-    box-shadow: -.25vw 0.15vw .75vw 0vw rgba(0, 0, 0, .5);
-    box-shadow: inset .15vw -0.15vw .75vw 0vw rgba(0, 0, 0, .5);
-    
-}
-
 
 
 .pic {
@@ -452,48 +389,7 @@ overflow: hidden;
         box-shadow: -.15vw 0.15vw .75vw 0vw rgba(0, 0, 0, .5);
     }
     
-    .navbutton:focus {
-        font-family: Lato_Regular, Helvetica, sans-serif;
-        font-stretch: wider;
-        font-size: 3vw;
-        font-weight: bolder;
-        height: 4.5vw;
-        width: 20vw;
-        border-radius: 3vw;
-        transform: rotate(270deg);
-        border-style: none;
-        border: none;
-        color: #00A99D;
-        margin-top: 10.5vw;
-        margin-bottom: 10.5vw;
-        margin-left: -5.5vw;
-        cursor: pointer;
-        
-        background: linear-gradient(270deg, #24272B 0%, #2D3134 100%);
-        box-shadow: -.15vw 0.15vw .75vw 0vw rgba(0, 0, 0, .5);
-        box-shadow: inset .15vw -0.15vw .75vw 0vw rgba(0, 0, 0, .5);
-    }
     
-    .selected-button {
-        font-family: Lato_Regular, Helvetica, sans-serif;
-        font-stretch: wider;
-        font-size: 1vw;
-        font-weight: bold;
-        height: 3vw;
-        width: 8vw;
-        border-radius: 3vw;
-        transform: rotate(270deg);
-        border-style: none;
-        border: none;
-        color: #00A99D;
-        margin-top: 3.5vw;
-        margin-bottom: 3.5vw;
-        
-        
-        background: linear-gradient(270deg, #24272B 0%, #2D3134 100%);
-        box-shadow: -.15vw 0.15vw .75vw 0vw rgba(0, 0, 0, .5);
-        box-shadow: inset .15vw -0.15vw .75vw 0vw rgba(0, 0, 0, .5);
-    }
 }
 
 @media screen and (max-width: 767px){
