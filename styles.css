@@ -44,7 +44,6 @@ html::-webkit-scrollbar {
     grid-template-columns: 50% 40%;
     margin-left: 7vw;
     column-gap: .5vw;
-    align-self: top;
     width: 100%;
     text-align: right;
     overflow: hidden;
@@ -52,7 +51,6 @@ html::-webkit-scrollbar {
 }
 
 .main-grid-item {
-    justify-self: top;
     text-align: right;
 }
 
@@ -61,8 +59,8 @@ html::-webkit-scrollbar {
     grid-template-columns: 11.65% 11.65% 11.65% 11.65% 11.65% 11.65% 11.65%;
     box-shadow:  0vw 1vw 5vw 1vw rgba(0, 0, 0, .5);
     margin-left: 10.15%;
+    padding-left: 1.75%;
     column-gap: .5vw;
-    align-self: top;
     width: 100%;
  
 }
@@ -74,7 +72,6 @@ html::-webkit-scrollbar {
     margin-left: -7.85%;
     padding-right: 1.75%;
     column-gap: .5vw;
-    align-self: top;
     justify-content: right;
     width: 100%;
     
@@ -92,6 +89,7 @@ html::-webkit-scrollbar {
 
 .icon-item img {
     display: block;
+    height: auto;
     width: 100%;
     transition: transform .2s;
 }
@@ -158,7 +156,6 @@ html::-webkit-scrollbar {
     font-family: Lato_Regular, Helvetica, sans-serif;
     font-size: 1vw;
     text-align: center;
-    text-justify: center;
     font-weight: bold;
     height: 3vw;
     width: 8vw;
@@ -175,6 +172,26 @@ html::-webkit-scrollbar {
     box-shadow: -.15vw 0.15vw .75vw 0vw rgba(0, 0, 0, .5);
 }
 
+.navbutton:focus {
+    font-family: Lato_Regular, Helvetica, sans-serif;
+    font-size: 1vw;
+    text-align: center;
+    font-weight: bold;
+    height: 3vw;
+    width: 8vw;
+    border-radius: 3vw;
+    transform: rotate(270deg);
+    border-style: none;
+    border: none;
+    color: #00A99D;
+    margin-top: 3.5vw;
+    margin-bottom: 3.5vw;
+    cursor: pointer;
+    
+    background: linear-gradient(270deg, #24272B 0%, #2D3134 100%);
+    box-shadow: -.15vw 0.15vw .75vw 0vw rgba(0, 0, 0, .5);
+    box-shadow: inset .15vw -0.15vw .75vw 0vw rgba(0, 0, 0, .5);
+}
 
 .pic {
     display: inline-block;
@@ -214,9 +231,18 @@ html::-webkit-scrollbar {
     animation: scrollWheel infinite 2s;
 }
 
+.resume {
+    position: fixed;
+    height: 3vw;
+    width: 3vw;
+    top: 90%;
+    left: 92.5%;
+
+}
+
 .project-title {
     margin-top: 0%;
-    margin-left: 10.15%;
+    margin-left: 6.15%;
     text-align: left;
     font-family: Droid_Regular, Georgia, serif;
     font-size: 6vw;
@@ -232,7 +258,7 @@ html::-webkit-scrollbar {
 
 .project-item {
     font-family: Lato_Regular, Helvetica, sans-serif;
-    margin-left: 10.15%;
+    margin-left: 0%;
     text-align: left;
     font-size: 3vw;
     color: #CAC5BF;
@@ -273,12 +299,12 @@ html::-webkit-scrollbar {
     font-family: Lato_Regular, Helvetica, sans-serif;
     font-size: 2vw;
     text-align: center;
-    text-justify: center;
     font-weight: bold;
     height: 3vw;
     width: 12vw;
     border-radius: 3vw;
     border-style: none;
+    border: none;
     color: #00A99D;
     margin-top: 2%;
     cursor: pointer;
@@ -286,6 +312,26 @@ html::-webkit-scrollbar {
     
     background: linear-gradient(180deg, #24272B 0%, #2D3134 100%);
     box-shadow: -.15vw 0.15vw .75vw 0vw rgba(0, 0, 0, .5);
+}
+
+.contact-button:focus {
+    font-family: Lato_Regular, Helvetica, sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    font-weight: bold;
+    height: 3vw;
+    width: 12vw;
+    border-radius: 3vw;
+    border-style: none;
+    border: none;
+    color: #00A99D;
+    margin-top: 2%;
+    cursor: pointer;
+    position: relative;
+    
+    background: linear-gradient(270deg, #24272B 0%, #2D3134 100%);
+    box-shadow: -.15vw 0.15vw .75vw 0vw rgba(0, 0, 0, .5);
+    box-shadow: inset .15vw -0.15vw .75vw 0vw rgba(0, 0, 0, .5);
 }
 
 .social-button {
@@ -425,7 +471,6 @@ html::-webkit-scrollbar {
         font-size: 3vw;
         font-weight: bolder;
         text-align: center;
-        text-justify: center;
         height: 4.5vw;
         width: 20vw;
         border-radius: 3vw;
@@ -441,8 +486,28 @@ html::-webkit-scrollbar {
         background: linear-gradient(270deg, #24272B 0%, #2D3134 100%);
         box-shadow: -.15vw 0.15vw .75vw 0vw rgba(0, 0, 0, .5);
     }
-    
-    
+
+    .navbutton:focus {
+        font-family: Lato_Regular, Helvetica, sans-serif;
+        font-stretch: wider;
+        font-size: 3vw;
+        font-weight: bolder;
+        height: 4.5vw;
+        width: 20vw;
+        border-radius: 3vw;
+        transform: rotate(270deg);
+        border-style: none;
+        border: none;
+        color: #00A99D;
+        margin-top: 10.5vw;
+        margin-bottom: 10.5vw;
+        margin-left: -5.5vw;
+        cursor: pointer;
+        
+        background: linear-gradient(270deg, #24272B 0%, #2D3134 100%);
+        box-shadow: -.15vw 0.15vw .75vw 0vw rgba(0, 0, 0, .5);
+        box-shadow: inset .15vw -0.15vw .75vw 0vw rgba(0, 0, 0, .5);
+    }
 }
 
 @media screen and (max-width: 767px){
@@ -491,7 +556,6 @@ html::-webkit-scrollbar {
         font-family: Lato_Regular, Helvetica, sans-serif;
         font-size: 3vw;
         text-align: center;
-        text-justify: center;
         font-weight: bolder;
         height: 4.5vw;
         width: 20vw;
@@ -525,27 +589,6 @@ html::-webkit-scrollbar {
         margin-bottom: 10.5vw;
         margin-left: -5.5vw;
         cursor: pointer;
-        
-        background: linear-gradient(270deg, #24272B 0%, #2D3134 100%);
-        box-shadow: -.15vw 0.15vw .75vw 0vw rgba(0, 0, 0, .5);
-        box-shadow: inset .15vw -0.15vw .75vw 0vw rgba(0, 0, 0, .5);
-    }
-    
-    .selected-button {
-        font-family: Lato_Regular, Helvetica, sans-serif;
-        font-stretch: wider;
-        font-size: 1vw;
-        font-weight: bold;
-        height: 3vw;
-        width: 8vw;
-        border-radius: 3vw;
-        transform: rotate(270deg);
-        border-style: none;
-        border: none;
-        color: #00A99D;
-        margin-top: 3.5vw;
-        margin-bottom: 3.5vw;
-        
         
         background: linear-gradient(270deg, #24272B 0%, #2D3134 100%);
         box-shadow: -.15vw 0.15vw .75vw 0vw rgba(0, 0, 0, .5);
