@@ -7,9 +7,13 @@ I hope that this post-graduation, pre-employment project serves a number of purp
 This project is the first of many that I hope to complete, as I intend to revisit each programming language I have engaged with in depth. 
 
 Here I cover:
+
 •HTML
+
 •CSS
+
 •PHP
+
 •Javascript
 
 Throughout my time seeking for employment, I hope to continuously update this portfolio with each project I complete. I hope that this serves as a supplement to my programming experience, my resume and my personal enjoyment.
