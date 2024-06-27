@@ -4,9 +4,9 @@
 <head>
     <title>Michael Terry</title>
 
-    <meta charset = "UTF-8"/>
+    <meta charset = "UTF-8" />
     <meta name = "viewport"
-        content = "width  =  device-width, user-scalable  =  no, initial-scale  =  0.86, maximum-scale  =  0.86, minimum-scale  =  0.86"/>
+        content = "width = device-width, user-scalable = no, initial-scale = 0.86, maximum-scale = 0.86, minimum-scale = 0.86" />
     <meta name = "description" content = "Michael Terry - Software Engineering Portfolio">
     <meta name = "keywords" content = "Michael Terry, Mike Terry, Software Engineer, Programming, Stewartstown">
 
@@ -16,13 +16,13 @@
     <link rel = "apple-touch-icon" sizes = "180x180" href = "res/favicon/apple-touch-icon.png">
     <link rel = "icon" type = "image/png" sizes = "32x32" href = "res/favicon/favicon-32x32.png">
     <link rel = "icon" type = "image/png" sizes = "16x16" href = "res/favicon/favicon-16x16.png">
-    
+
     <link rel = "manifest" href = "res/favicon/site.webmanifest">
     <link rel = "mask-icon" href = "res/favicon/safari-pinned-tab.svg" color = "#5bbad5">
     <meta name = "msapplication-TileColor" content = "#da532c">
     <meta name = "theme-color" content = "#ffffff">
 
-    <script src="https://www.google.com/recaptcha/api.js?render=6Lfahx0fAAAAAKBfUUCWCrdRplsy_EJG_-aan3yY"></script>
+    <script src = "https://www.google.com/recaptcha/api.js?render = 6Lfahx0fAAAAAKBfUUCWCrdRplsy_EJG_-aan3yY"></script>
 
 </head>
 
@@ -30,7 +30,7 @@
     <main>
 
         <div class = "splash">
-            <img  src = "res/animations/splash.gif">
+            <img src = "res/animations/splash.gif">
         </div>
 
         <div class = "navbar">
@@ -210,12 +210,24 @@
                 <h1 class = "title-left" style = "margin-bottom: -1%;">Get in Touch</h1>
 
                 <form method = "POST" action = "mail.php" id = "contact-form">
-                    <input class = contact-text name = "name" type = "text" placeholder = "Name"/>
-                    <input class = contact-text name = "email" type = "text" placeholder = "Email"/>
+                    <input class = contact-text name = "name" type = "text" placeholder = "Name" />
+                    <input class = contact-text name = "email" type = "text" placeholder = "Email" />
                     <textarea class = contact-area name = "message" placeholder = "Message"></textarea>
-                    <input class = contact-button name = "sendflag" type = "submit" value = "Send"/>
+
+                    <p class = "grecaptcha-branding">This site is protected by reCAPTCHA and the Google
+                    <a href = "https://policies.google.com/privacy" target = "_blank" rel = "noopener noreferrer" class = "grecaptcha-link" >
+                        Privacy Policy</a> and
+                    <a href = "https://policies.google.com/terms" target = "_blank" rel = "noopener noreferrer" class = grecaptcha-link>
+                        Terms of Service</a> apply.
+                    </p>
+
+                    <div></div>
+                    
+                    <input class = contact-button name = "sendflag" type = "submit" value = "Send" />
 
                     <input type = "hidden" name = "recaptcha_response" id = "recaptcha_response">
+
+
 
                     <a href = "https://www.linkedin.com/in/michael-s-terry/" target = "_blank" rel = "noopener noreferrer"
                         class = "social-button">
@@ -229,21 +241,21 @@
 
                 <script src = "recaptcha.js"></script>
 
-                
+
 
 
                 <div class = "resume">
                     <a href = "res/docs/Resume.pdf">
                         <img class = "resume-icon" src = "res/icons/resume-01.svg" alt = "Resume">
                     </a>
-                    
+
                 </div>
 
                 <div class = "mouse">
                     <div class = "wheel"></div>
                 </div>
 
-                
+
 
             </div>
         </div>
@@ -252,7 +264,7 @@
     <footer>
     </footer>
 
-<script src = "splash.js"></script>
+    <script src = "splash.js"></script>
 
 </body>
 

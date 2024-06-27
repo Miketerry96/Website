@@ -309,7 +309,7 @@ html::-webkit-scrollbar {
     border-style: none;
     border: none;
     color: #00A99D;
-    margin-top: 2%;
+    margin-top: 1%;
     cursor: pointer;
     position: relative;
     
@@ -336,6 +336,28 @@ html::-webkit-scrollbar {
     box-shadow: -.15vw 0.15vw .75vw 0vw rgba(0, 0, 0, .5);
     box-shadow: inset .15vw -0.15vw .75vw 0vw rgba(0, 0, 0, .5);
 }
+
+.grecaptcha-badge { visibility: hidden; }
+
+.grecaptcha-branding {
+    font-family: Lato_Regular, Helvetica, sans-serif;
+    font-size: 0.5vw; /* Adjust font size as needed */
+    color: #CAC5BF; /* Same color as other text */
+    margin-top: 2%; /* Adjust spacing */
+    width: 25%; /* Adjust width to match the textbox above */
+    display: inline-block; 
+    position: relative;
+    width: 25%;
+    margin-top: 1%;
+    resize:vertical;
+}
+
+.grecaptcha-link {
+    color: #00A99D; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
 
 .social-button {
     width: 12vw;
